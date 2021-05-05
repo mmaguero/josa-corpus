@@ -3,13 +3,13 @@ Jopara (Guarani-dominant mixed with Spanish) sentiment analysis corpus.
 
 ## Corpora
 
-We create two Corpora: balanced and unbalanced. The balanced (1526) was created from the unbalanced (3941).
+We created two Corpora: balanced and unbalanced. The balanced (1526) was created from the unbalanced (3941).
 
 ### TweetIDs
 
 Tweet IDs, which the content can rehydrate (i.e. request the full Tweet) using the Twitter APIs. See [Redistribution of Twitter content](https://developer.twitter.com/en/developer-terms/more-on-restricted-use-cases).
 
-[Upload pending](#).
+[Harvard Dataverse repository](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/GLDX14).
 
 ## Baselines
 
