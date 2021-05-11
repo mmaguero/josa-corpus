@@ -10,7 +10,11 @@ We created two Corpora: balanced and unbalanced. The balanced (1526) was created
 Tweet IDs, the content can rehydrate (i.e. request the full Tweet) using the Twitter APIs. See [Redistribution of Twitter content](https://developer.twitter.com/en/developer-terms/more-on-restricted-use-cases).
 Consider [hydrated](https://catalog.docnow.io/datasets/20210506-jopara-guarani-dominant-mixed-with-spanish-sentiment-analysis-corpus/) them back into full datasets using a **Hydrator** (e.g., [DocNow](https://catalog.docnow.io/)).
 
-Go to [Harvard Dataverse repository](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/GLDX14). [](https://catalog.docnow.io/datasets/20210506-jopara-guarani-dominant-mixed-with-spanish-sentiment-analysis-corpus/)
+Go to [Harvard Dataverse repository](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/GLDX14). [](https://catalog.docnow.io/datasets/20210506-jopara-guarani-dominant-mixed-with-spanish-sentiment-analysis-corpus/).
+
+### Tweets downloader
+
+If you are curious and want to know how we download these particular tweets, go to this [GitHub repository](https://github.com/mmaguero/guarani-tweets) (see also [tweets-downloader repository](https://github.com/mmaguero/tweets-downloader)).
 
 ## Baselines
 
@@ -35,10 +39,18 @@ Go to [Google Colab notebook](https://colab.research.google.com/drive/1eHnF1GsMS
 
 ## How do I cite this work?
 
-Please, cite this paper [On the logistical difficulties and findings of Jopara Sentiment Analysis](https://code-switching.github.io/2021):
+Please, cite this paper [On the logistical difficulties and findings of Jopara Sentiment Analysis](https://arxiv.org/abs/2105.02947):
 
-Marvin M. Agüero-Torales, David Vilares, Antonio G. López-Herrera (2021). On the logistical difficulties and findings of Jopara Sentiment Analysis. In Proceedings on *CALCS 2021 (co-located with NAACL 2021) - Fifth Workshop on Computational Approaches to Linguistic Code Switching*, to appear (June).
+Marvin M. Agüero-Torales, David Vilares, Antonio G. López-Herrera (2021). On the logistical difficulties and findings of Jopara Sentiment Analysis. In Proceedings on *CALCS 2021 (co-located with NAACL 2021)* - [Fifth Workshop on Computational Approaches to Linguistic Code Switching](https://code-switching.github.io/2021), to appear (June).
 
+For now:
 ```
-BibTeX format pending
+@misc{agüerotorales2021logistical,
+      title={On the logistical difficulties and findings of Jopara Sentiment Analysis}, 
+      author={Marvin M. Agüero-Torales and David Vilares and Antonio G. López-Herrera},
+      year={2021},
+      eprint={2105.02947},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
